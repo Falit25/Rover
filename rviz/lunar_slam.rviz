@@ -1,0 +1,177 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+    Property Tree Widget:
+      Expanded:
+        - /Global Options1
+        - /Status1
+      Splitter Ratio: 0.5
+  - Class: rviz_common/Views
+    Name: Views
+    Property Tree Widget:
+      Expanded:
+        - /Current View1
+      Splitter Ratio: 0.5
+  - Class: rviz_common/Selection
+    Name: Selection
+    Property Tree Widget:
+      Expanded:
+        - /Global Options1
+        - /Current Selection1
+      Splitter Ratio: 0.5
+  - Class: rviz_common/Time
+    Name: Time
+    Property Tree Widget:
+      Expanded:
+        - /Global Options1
+      Splitter Ratio: 0.5
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Alpha: 0.5
+      Cell Size: 1
+      Class: rviz_default_plugins/Grid
+      Color: 160; 160; 164
+      Enabled: true
+      Line Style:
+        Line Width: 0.01
+        Value: Lines
+      Name: Grid
+      Normal Cell Count: 0
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Plane: XY
+      Plane Cell Count: 10
+      Reference Frame: <Fixed Frame>
+      Value: true
+    - Alpha: 1
+      Class: rviz_default_plugins/RobotModel
+      Description File: ""
+      Description Source: Topic
+      Enabled: true
+      Name: RobotModel
+      Robot Description: robot_description
+      Update Interval: 0
+      Value: true
+    - Alpha: 1
+      Class: rviz_default_plugins/PointCloud2
+      Color: 255; 255; 255
+      Color Transformer: Intensity
+      Enabled: true
+      Name: LiDAR
+      Position Transformer: XYZ
+      Queue Size: 10
+      Topic: /velodyne_points
+      Value: true
+    - Alpha: 0.7
+      Class: rviz_default_plugins/Map
+      Color Scheme: costmap
+      Enabled: true
+      Name: Traversability Costmap
+      Topic: /traversability_costmap
+      Value: true
+    - Alpha: 0.7
+      Class: rviz_default_plugins/Map
+      Color Scheme: costmap
+      Enabled: true
+      Name: Hazard Map
+      Topic: /hazard_map
+      Value: true
+    - Alpha: 1
+      Class: rviz_default_plugins/Path
+      Color: 0; 255; 0
+      Enabled: true
+      Line Width: 0.05
+      Name: Global Path
+      Topic: /global_path
+      Value: true
+    - Alpha: 1
+      Class: rviz_default_plugins/Path
+      Color: 255; 0; 0
+      Enabled: true
+      Line Width: 0.03
+      Name: Local Path
+      Topic: /local_path
+      Value: true
+    - Alpha: 1
+      Class: rviz_default_plugins/Pose
+      Arrow Length: 0.5
+      Arrow Width: 0.1
+      Axes Length: 0.3
+      Axes Radius: 0.03
+      Color: 255; 0; 0
+      Enabled: true
+      Name: Fused Pose
+      Topic: /fused_pose
+      Value: true
+    - Alpha: 1
+      Class: rviz_default_plugins/Pose
+      Arrow Length: 0.5
+      Arrow Width: 0.1
+      Axes Length: 0.3
+      Axes Radius: 0.03
+      Color: 0; 0; 255
+      Enabled: true
+      Name: Thermal-Inertial Pose
+      Topic: /thermal_inertial_pose
+      Value: true
+    - Alpha: 1
+      Class: rviz_default_plugins/MarkerArray
+      Enabled: true
+      Name: Frontiers
+      Topic: /frontiers
+      Value: true
+    - Alpha: 1
+      Class: rviz_default_plugins/Image
+      Enabled: true
+      Name: Thermal Image
+      Topic: /thermal/image_raw
+      Value: true
+  Enabled: true
+  Global Options:
+    Background Color: 0; 0; 0
+    Fixed Frame: odom
+    Frame Rate: 30
+  Name: root
+  Tools:
+    - Class: rviz_default_plugins/Interact
+      Enabled: true
+    - Class: rviz_default_plugins/MoveCamera
+      Enabled: true
+    - Class: rviz_default_plugins/Select
+      Enabled: true
+    - Class: rviz_default_plugins/SetInitialPose
+      Enabled: true
+    - Class: rviz_default_plugins/SetGoal
+      Enabled: true
+  Value: true
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 30
+      Enable Stereo Rendering:
+        Stereo Eye Separation: 0.05
+        Stereo Focal Distance: 1
+        Swap Stereo Eyes: false
+        Value: false
+      Focal Point:
+        X: 0
+        Y: 0
+        Z: 0
+      Focal Shape Fixed Size: true
+      Focal Shape Size: 0.05
+      Name: Orbit
+      Near Clip Distance: 0.01
+      Pitch: 0.785398
+      Target Frame: <Fixed Frame>
+      Yaw: 0.785398
+    Saved: ~
+Window Geometry:
+  Displays:
+    collapsed: false
+  Height: 800
+  Width: 1200
+  X: 100
+  Y: 100

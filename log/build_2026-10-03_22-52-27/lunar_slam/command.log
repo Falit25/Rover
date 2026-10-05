@@ -1,0 +1,2 @@
+Invoking command in '/home/blueberry/Desktop/Project/SIH/build/lunar_slam': /usr/bin/cmake /home/blueberry/Desktop/Project/SIH -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/blueberry/Desktop/Project/SIH/install/lunar_slam
+Invoked command in '/home/blueberry/Desktop/Project/SIH/build/lunar_slam' returned '1': /usr/bin/cmake /home/blueberry/Desktop/Project/SIH -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/blueberry/Desktop/Project/SIH/install/lunar_slam

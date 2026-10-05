@@ -1,0 +1,27 @@
+[0.029s] Invoking command in '/home/blueberry/Desktop/Project/SIH/build/lunar_slam': /usr/bin/cmake /home/blueberry/Desktop/Project/SIH -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/blueberry/Desktop/Project/SIH/install/lunar_slam
+[0.330s] -- The CXX compiler identification is GNU 11.4.0
+[0.355s] -- Detecting CXX compiler ABI info
+[0.560s] -- Detecting CXX compiler ABI info - done
+[0.572s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.573s] -- Detecting CXX compile features
+[0.574s] -- Detecting CXX compile features - done
+[0.593s] [31mCMake Error at CMakeLists.txt:8 (find_package):
+[0.593s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.593s]   has asked CMake to find a package configuration file provided by
+[0.593s]   "ament_cmake", but CMake did not find one.
+[0.593s] 
+[0.593s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.593s]   any of the following names:
+[0.593s] 
+[0.593s]     ament_cmakeConfig.cmake
+[0.593s]     ament_cmake-config.cmake
+[0.593s] 
+[0.593s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.594s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.594s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.594s]   has been installed.
+[0.594s] 
+[0.594s] [0m
+[0.594s] -- Configuring incomplete, errors occurred!
+[0.594s] See also "/home/blueberry/Desktop/Project/SIH/build/lunar_slam/CMakeFiles/CMakeOutput.log".
+[0.599s] Invoked command in '/home/blueberry/Desktop/Project/SIH/build/lunar_slam' returned '1': /usr/bin/cmake /home/blueberry/Desktop/Project/SIH -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/blueberry/Desktop/Project/SIH/install/lunar_slam

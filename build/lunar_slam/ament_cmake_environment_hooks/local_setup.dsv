@@ -1,0 +1,2 @@
+source;share/lunar_slam/environment/ament_prefix_path.sh
+source;share/lunar_slam/environment/path.sh

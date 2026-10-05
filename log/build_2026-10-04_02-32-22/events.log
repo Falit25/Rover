@@ -1,0 +1,173 @@
+[0.000000] (-) TimerEvent: {}
+[0.000744] (lunar_slam) JobQueued: {'identifier': 'lunar_slam', 'dependencies': OrderedDict()}
+[0.001047] (lunar_slam) JobStarted: {'identifier': 'lunar_slam'}
+[0.024473] (lunar_slam) JobProgress: {'identifier': 'lunar_slam', 'progress': 'cmake'}
+[0.031297] (lunar_slam) Command: {'cmd': ['/usr/bin/cmake', '/home/blueberry/Desktop/Project/SIH', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/blueberry/Desktop/Project/SIH/install/lunar_slam'], 'cwd': '/home/blueberry/Desktop/Project/SIH/build/lunar_slam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'blueberry'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/blueberry'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1573'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=88b878d3459ad9ac7edac7346ac0e3c7'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'blueberry'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'blueberry'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1573,unix/ubuntu:/tmp/.ICE-unix/1573'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e875a67f_51a7_44b3_b879_6abc9af5733a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YKPYW3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.248'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/blueberry/Desktop/Project/SIH/build/lunar_slam'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=88b878d3459ad9ac7edac7346ac0e3c7'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.109006] (-) TimerEvent: {}
+[0.200768] (lunar_slam) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.209925] (-) TimerEvent: {}
+[0.364583] (-) TimerEvent: {}
+[0.410997] (lunar_slam) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.451738] (lunar_slam) StdoutLine: {'line': b'-- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.464910] (-) TimerEvent: {}
+[0.540274] (lunar_slam) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.545861] (lunar_slam) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.561380] (lunar_slam) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.565314] (-) TimerEvent: {}
+[0.588234] (lunar_slam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.620406] (lunar_slam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.672150] (-) TimerEvent: {}
+[0.700428] (lunar_slam) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.706079] (lunar_slam) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.814492] (-) TimerEvent: {}
+[0.892175] (lunar_slam) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.914736] (-) TimerEvent: {}
+[1.020381] (lunar_slam) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.21 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[1.020619] (-) TimerEvent: {}
+[1.073550] (lunar_slam) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.133195] (lunar_slam) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.2 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.133422] (-) TimerEvent: {}
+[1.169611] (lunar_slam) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.23 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.266143] (-) TimerEvent: {}
+[1.301798] (lunar_slam) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.23 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[1.311228] (lunar_slam) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.313543] (lunar_slam) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.317339] (lunar_slam) StdoutLine: {'line': b'-- Found tf2_eigen: 0.25.23 (/opt/ros/humble/share/tf2_eigen/cmake)\n'}
+[1.323396] (lunar_slam) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[1.344111] (lunar_slam) StdoutLine: {'line': b'-- Found image_transport: 3.1.13 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[1.371083] (lunar_slam) StdoutLine: {'line': b'-- Found nav2_core: 1.1.20 (/opt/ros/humble/share/nav2_core/cmake)\n'}
+[1.371308] (-) TimerEvent: {}
+[1.512805] (-) TimerEvent: {}
+[1.649330] (lunar_slam) StdoutLine: {'line': b'-- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)\n'}
+[1.652064] (-) TimerEvent: {}
+[1.714936] (lunar_slam) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.770508] (lunar_slam) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[1.770751] (-) TimerEvent: {}
+[1.948998] (-) TimerEvent: {}
+[2.176999] (-) TimerEvent: {}
+[2.236234] (lunar_slam) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.249250] (lunar_slam) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.281630] (-) TimerEvent: {}
+[2.469640] (lunar_slam) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[2.469874] (-) TimerEvent: {}
+[2.480668] (lunar_slam) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.494388] (lunar_slam) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.598196] (-) TimerEvent: {}
+[2.705345] (lunar_slam) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[2.705574] (-) TimerEvent: {}
+[2.883399] (-) TimerEvent: {}
+[2.936165] (lunar_slam) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.984293] (-) TimerEvent: {}
+[3.086059] (-) TimerEvent: {}
+[3.186486] (-) TimerEvent: {}
+[3.262099] (lunar_slam) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[3.262352] (lunar_slam) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PkgConfig)\n'}
+[3.262424] (lunar_slam) StderrLine: {'line': b'  does not match the name of the calling package (gazebo).  This can lead to\n'}
+[3.262479] (lunar_slam) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[3.262533] (lunar_slam) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[3.262586] (lunar_slam) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.262639] (lunar_slam) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)\n'}
+[3.262691] (lunar_slam) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)\n'}
+[3.262738] (lunar_slam) StderrLine: {'line': b'  CMakeLists.txt:27 (find_package)\n'}
+[3.262789] (lunar_slam) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[3.262842] (lunar_slam) StderrLine: {'line': b'\x1b[0m\n'}
+[3.289732] (-) TimerEvent: {}
+[3.312100] (lunar_slam) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[3.413370] (lunar_slam) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[3.413618] (-) TimerEvent: {}
+[3.418301] (lunar_slam) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.16.0\n'}
+[3.430548] (lunar_slam) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[3.433724] (lunar_slam) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[3.448420] (lunar_slam) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[3.449292] (lunar_slam) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[3.466958] (lunar_slam) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[3.467356] (lunar_slam) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[3.467772] (lunar_slam) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[3.467856] (lunar_slam) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[3.467918] (lunar_slam) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[3.467994] (lunar_slam) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[3.468049] (lunar_slam) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[3.468102] (lunar_slam) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[3.468156] (lunar_slam) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[3.468208] (lunar_slam) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[3.468266] (lunar_slam) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[3.468318] (lunar_slam) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[3.524772] (-) TimerEvent: {}
+[3.613864] (lunar_slam) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.16.0\n'}
+[3.617815] (lunar_slam) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[3.618666] (lunar_slam) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[3.649293] (lunar_slam) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[3.649526] (-) TimerEvent: {}
+[3.666805] (lunar_slam) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[3.680126] (lunar_slam) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[3.724334] (lunar_slam) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[3.749729] (-) TimerEvent: {}
+[3.839546] (lunar_slam) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[3.850433] (-) TimerEvent: {}
+[3.871201] (lunar_slam) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[3.951145] (-) TimerEvent: {}
+[3.966030] (lunar_slam) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[3.967223] (lunar_slam) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[3.999819] (lunar_slam) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.16.0\n'}
+[4.024424] (lunar_slam) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[4.028507] (lunar_slam) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[4.029731] (lunar_slam) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[4.030234] (lunar_slam) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[4.030384] (lunar_slam) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[4.051735] (-) TimerEvent: {}
+[4.058628] (lunar_slam) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[4.060296] (lunar_slam) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[4.061780] (lunar_slam) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[4.062522] (lunar_slam) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.16.0\n'}
+[4.069391] (lunar_slam) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[4.070268] (lunar_slam) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[4.130182] (lunar_slam) StderrLine: {'line': b'\x1b[31mCMake Error at /usr/lib/x86_64-linux-gnu/cmake/jsoncpp/jsoncpp-namespaced-targets.cmake:5 (add_library):\n'}
+[4.130408] (lunar_slam) StderrLine: {'line': b'  add_library cannot create imported target "JsonCpp::JsonCpp" because\n'}
+[4.130476] (lunar_slam) StderrLine: {'line': b'  another target with the same name already exists.\n'}
+[4.130532] (lunar_slam) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.130585] (lunar_slam) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/jsoncpp/jsoncppConfig.cmake:41 (include)\n'}
+[4.130737] (lunar_slam) StderrLine: {'line': b'  /usr/share/cmake/ignition-cmake2/cmake2/FindJSONCPP.cmake:34 (find_package)\n'}
+[4.130882] (lunar_slam) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/ignition-fuel_tools4/ignition-fuel_tools4-config.cmake:94 (find_package)\n'}
+[4.130952] (lunar_slam) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:251 (find_package)\n'}
+[4.131008] (lunar_slam) StderrLine: {'line': b'  CMakeLists.txt:27 (find_package)\n'}
+[4.131068] (lunar_slam) StderrLine: {'line': b'\n'}
+[4.131119] (lunar_slam) StderrLine: {'line': b'\x1b[0m\n'}
+[4.142012] (lunar_slam) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[4.152024] (-) TimerEvent: {}
+[4.175953] (lunar_slam) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[4.254145] (-) TimerEvent: {}
+[4.259099] (lunar_slam) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[4.259592] (lunar_slam) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.16.0\n'}
+[4.260359] (lunar_slam) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[4.321658] (lunar_slam) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:55 (target_link_libraries):\n'}
+[4.321905] (lunar_slam) StderrLine: {'line': b'  The plain signature for target_link_libraries has already been used with\n'}
+[4.321973] (lunar_slam) StderrLine: {'line': b'  the target "lunar_slam_core".  All uses of target_link_libraries with a\n'}
+[4.322045] (lunar_slam) StderrLine: {'line': b'  target must be either all-keyword or all-plain.\n'}
+[4.322098] (lunar_slam) StderrLine: {'line': b'\n'}
+[4.322149] (lunar_slam) StderrLine: {'line': b'  The uses of the plain signature are here:\n'}
+[4.322200] (lunar_slam) StderrLine: {'line': b'\n'}
+[4.322246] (lunar_slam) StderrLine: {'line': b'   * /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:145 (target_link_libraries)\n'}
+[4.322295] (lunar_slam) StderrLine: {'line': b'   * /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:151 (target_link_libraries)\n'}
+[4.322342] (lunar_slam) StderrLine: {'line': b'\n'}
+[4.322389] (lunar_slam) StderrLine: {'line': b'\n'}
+[4.322438] (lunar_slam) StderrLine: {'line': b'\x1b[0m\n'}
+[4.363758] (-) TimerEvent: {}
+[4.370616] (lunar_slam) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:101 (target_link_libraries):\n'}
+[4.370845] (lunar_slam) StderrLine: {'line': b'  The plain signature for target_link_libraries has already been used with\n'}
+[4.370922] (lunar_slam) StderrLine: {'line': b'  the target "lunar_slam_nodes".  All uses of target_link_libraries with a\n'}
+[4.370979] (lunar_slam) StderrLine: {'line': b'  target must be either all-keyword or all-plain.\n'}
+[4.371035] (lunar_slam) StderrLine: {'line': b'\n'}
+[4.371086] (lunar_slam) StderrLine: {'line': b'  The uses of the plain signature are here:\n'}
+[4.371138] (lunar_slam) StderrLine: {'line': b'\n'}
+[4.371189] (lunar_slam) StderrLine: {'line': b'   * /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:145 (target_link_libraries)\n'}
+[4.371240] (lunar_slam) StderrLine: {'line': b'   * /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:151 (target_link_libraries)\n'}
+[4.371291] (lunar_slam) StderrLine: {'line': b'\n'}
+[4.371340] (lunar_slam) StderrLine: {'line': b'\n'}
+[4.371387] (lunar_slam) StderrLine: {'line': b'\x1b[0m\n'}
+[4.465287] (-) TimerEvent: {}
+[4.524775] (lunar_slam) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.525192] (lunar_slam) StdoutLine: {'line': b'See also "/home/blueberry/Desktop/Project/SIH/build/lunar_slam/CMakeFiles/CMakeOutput.log".\n'}
+[4.565504] (-) TimerEvent: {}
+[4.578272] (lunar_slam) CommandEnded: {'returncode': 1}
+[4.653519] (lunar_slam) JobEnded: {'identifier': 'lunar_slam', 'rc': 1}
+[4.667055] (-) EventReactorShutdown: {}

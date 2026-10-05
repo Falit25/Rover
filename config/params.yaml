@@ -1,0 +1,153 @@
+/**:
+  ros__parameters:
+    # Sensor topics
+    imu_topic: "/imu/data"
+    lidar_topic: "/velodyne_points"
+    thermal_topic: "/thermal/image_raw"
+    wheel_odom_topic: "/wheel_odom"
+
+    # Output topics
+    fused_pose_topic: "/fused_pose"
+    costmap_topic: "/traversability_costmap"
+    hazard_map_topic: "/hazard_map"
+    slope_map_topic: "/slope_map"
+    slip_map_topic: "/slip_map"
+    global_path_topic: "/global_path"
+    local_path_topic: "/local_path"
+    probing_goal_topic: "/probing_goal"
+
+    # Frames
+    map_frame: "map"
+    odom_frame: "odom"
+    base_frame: "base_link"
+    lidar_frame: "lidar_link"
+    thermal_frame: "thermal_camera_link"
+    imu_frame: "imu_link"
+
+    # Thermal-Inertial Odometry
+    thermal_inertial:
+      img_rate: 10.0
+      imu_rate: 200.0
+      max_features: 500
+      feature_min_distance: 15.0
+      ransac_threshold: 2.0
+      parallax_threshold: 10.0
+      gravity_x: 0.0
+      gravity_y: 0.0
+      gravity_z: -1.62
+      accel_noise: 1e-3
+      gyro_noise: 1e-4
+      accel_bias_noise: 1e-5
+      gyro_bias_noise: 1e-6
+      publish_tf: false
+
+    # Sensor Fusion EKF
+    sensor_fusion:
+      imu_rate: 200.0
+      lidar_rate: 10.0
+      thermal_rate: 10.0
+      wheel_rate: 50.0
+      gravity_x: 0.0
+      gravity_y: 0.0
+      gravity_z: -1.62
+      imu_noise_diag: [1e-4, 1e-4, 1e-4, 1e-4, 1e-4, 1e-4]
+      lidar_noise_diag: [1e-2, 1e-2, 1e-2, 1e-2, 1e-2, 1e-2]
+      thermal_noise_diag: [5e-2, 5e-2, 5e-2, 5e-2, 5e-2, 5e-2]
+      wheel_noise_diag: [1e-3, 1e-3, 1e-3]
+      bias_random_walk_accel: 1e-5
+      bias_random_walk_gyro: 1e-6
+      publish_tf: true
+
+    # LiDAR Odometry
+    lidar_odometry:
+      cloud_topic: "/velodyne_points"
+      odom_topic: "/lidar_odom"
+      base_frame: "base_link"
+      odom_frame: "odom"
+      publish_tf: false
+      voxel_leaf_size: 0.1
+      max_correspondence_distance: 1.0
+      max_iterations: 30
+
+    # Hazard Detection
+    hazard_detector:
+      resolution: 0.1
+      grid_size: 200
+      max_step_height: 0.15
+      max_slope_deg: 20.0
+      crater_rim_curvature: 0.5
+      rock_height_thresh: 0.2
+      cold_trap_temp_thresh: 100.0
+      thermal_noise_sigma: 5.0
+      slope_map_topic: "/slope_map"
+      surface_risk_map_topic: "/surface_risk_map"
+      mobility_risk_model_path: ""
+
+    # Risk-Aware Global Planner
+    risk_aware_planner:
+      risk_weight: 2.0
+      max_risk_per_step: 0.3
+      risk_accumulation_threshold: 0.95
+      max_iterations: 10000
+      heuristic_weight: 1.0
+      allow_diagonal: true
+      diagonal_cost: 1.414
+      energy_weight: 1.5
+      slope_energy_factor: 2.0
+      slip_energy_factor: 3.0
+      base_energy_per_meter: 1.0
+      max_energy_per_step: 50.0
+      battery_capacity: 1000.0
+      enable_energy_planning: true
+
+    # Active Probing
+    active_probing:
+      enable: true
+      uncertainty_threshold: 0.7
+      search_radius_m: 10.0
+      min_probe_distance_m: 2.0
+      max_probe_distance_m: 15.0
+      replan_interval_s: 30.0
+
+    # Local Planner (DWA/MPC)
+    local_planner:
+      max_vel_x: 0.5
+      min_vel_x: -0.2
+      max_vel_theta: 1.0
+      acc_lim_x: 0.5
+      acc_lim_theta: 1.5
+      sim_time: 2.0
+      sim_granularity: 0.05
+      vx_samples: 10
+      vtheta_samples: 20
+      path_distance_bias: 0.6
+      goal_distance_bias: 0.4
+      occdist_scale: 0.5
+      risk_scale: 2.0
+
+    # Mobility Dataset Collector
+    mobility_dataset_collector:
+      output_file: "mobility_dataset.csv"
+      slip_threshold: 0.15
+      sinkage_threshold: 0.05
+      record_rate: 2.0
+      buffer_size: 100
+      record_thermal: true
+      robot_base_frame: "base_link"
+      odom_frame: "odom"
+      gazebo_ground_truth_topic: "/ground_truth/odom"
+      elevation_map_topic: "/elevation_map"
+      wheel_joint_names: ["rear_left_wheel_joint", "rear_right_wheel_joint"]
+      wheel_radius: 0.15
+      elevation_map_resolution: 0.1
+
+    # Traversability Mapper
+    traversability:
+      resolution: 0.1
+      grid_size: 200
+      max_step_height: 0.15
+
+    # General
+    use_sim_time: true
+    publish_tf: true
+    debug_visualization: true

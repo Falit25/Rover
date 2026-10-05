@@ -1,0 +1,34 @@
+Gazebo multi-robot simulator, version 11.10.2
+Copyright (C) 2012 Open Source Robotics Foundation.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+Gazebo multi-robot simulator, version 11.10.2
+Copyright (C) 2012 Open Source Robotics Foundation.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+[1;32m[Msg] [0m[1;32mWaiting for master.[0m[1;32m
+[0m[1;32m[0m[1;32m[0m[1;32m[Msg] [0m[1;32mConnected to gazebo master @ [0m[1;32mhttp://127.0.0.1:11345[0m[1;32m
+[0m[1;32m[0m[1;32m[0m[1;32m[Msg] [0m[1;32mPublicized address: [0m[1;32m10.0.2.15[0m[1;32m
+[0m[1;32m[0m[1;32m[0m[1;31mError [parser.cc:765][0m Error parsing XML in file [/home/blueberry/Desktop/Project/SIH/sim/models/pragyan_rover/model.config]: Error reading Element value.
+Error Code 12 Msg: Unable to resolve uri[model://pragyan_rover] to model path [/home/blueberry/Desktop/Project/SIH/sim/models/pragyan_rover] since it does not contain a model.config file.
+[1;32m[Msg] [0m[1;32mLoading world file [[0m[1;32m/home/blueberry/Desktop/Project/SIH/sim/worlds/lunar_terrain.world[0m[1;32m][0m[1;32m
+[0m[1;32m[0m[1;32m[0m[1;33m[Wrn] [Publisher.cc:135] [0m[1;33mQueue limit reached for topic [0m[1;33m/gazebo/lunar_terrain/physics/contacts[0m[1;33m, deleting message. [0m[1;33mThis warning is printed only once.[0m[1;33m
+[0m[1;33m[0m[1;33m[0m[1;32m[Msg] [0m[1;32mWaiting for master.[0m[1;32m
+[0m[1;32m[0m[1;32m[0m[1;32m[Msg] [0m[1;32mConnected to gazebo master @ [0m[1;32mhttp://127.0.0.1:11345[0m[1;32m
+[0m[1;32m[0m[1;32m[0m[1;32m[Msg] [0m[1;32mPublicized address: [0m[1;32m10.0.2.15[0m[1;32m
+[0m[1;32m[0m[1;32m[0m[1;32m[Msg] [0m[1;32mWarning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.[0m[1;32m
+[0m[1;32m[0m[1;32m[0m[1;33m[Wrn] [Event.cc:61] [0m[1;33mWarning: Deleting a connection right after creation. [0m[1;33mMake sure to save the ConnectionPtr from a Connect call
+[0m[1;33m[Wrn] [FuelModelDatabase.cc:313] [0m[1;33mURI not supported by Fuel [[0m[1;33m__default__[0m[1;33m][0m[1;33m
+[0m[1;33m[0m[1;33m[0m[1;33m[Wrn] [SystemPaths.cc:459] [0m[1;33mFile or path does not exist [[0m[1;33m""[0m[1;33m] [[0m[1;33m__default__[0m[1;33m][0m[1;33m
+[0m[1;33m[0m[1;33m[0m[1;32m[Msg] [0m[1;32mLoading heightmap: [0m[1;32mlunar_heightmap[0m[1;32m
+[0m[1;32m[0m[1;32m[0m[1;32m[Msg] [0m[1;32mLoading heightmap cache data: [0m[1;32m/home/blueberry/.gazebo/paging/lunar_heightmap/gazebo_terrain_00000000.dat[0m[1;32m
+[0m[1;32m[0m[1;32m[0m[1;32m[Msg] [0m[1;32mHeightmap loaded. Process took: [0m[1;32m0.260784[0m[1;32m seconds[0m[1;32m
+[0m[1;32m[0m[1;32m[0mcontext mismatch in svga_surface_destroy
+context mismatch in svga_surface_destroy
+[1;33m[Wrn] [Publisher.cc:135] [0m[1;33mQueue limit reached for topic [0m[1;33m/gazebo/lunar_terrain/user_camera/pose[0m[1;33m, deleting message. [0m[1;33mThis warning is printed only once.[0m[1;33m
+[0m[1;33m[0m[1;33m[0mcontext mismatch in svga_surface_destroy
+context mismatch in svga_surface_destroy
+[1;33m[Wrn] [Event.cc:61] [0m[1;33mWarning: Deleting a connection right after creation. [0m[1;33mMake sure to save the ConnectionPtr from a Connect call
+[0m[1;33m[0m[1;36m[0m[1;31m[0m[1;32m[0m[1;33m[0m[1;36m[0m[1;31m[0m[1;32m[0m

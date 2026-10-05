@@ -1,0 +1,10 @@
+/home/blueberry/Desktop/Project/SIH/sim/models/thermal_camera_plugin/build/CMakeFiles/uninstall.dir
+/home/blueberry/Desktop/Project/SIH/sim/models/thermal_camera_plugin/build/CMakeFiles/lunar_thermal_camera_plugin_uninstall.dir
+/home/blueberry/Desktop/Project/SIH/sim/models/thermal_camera_plugin/build/CMakeFiles/lunar_thermal_camera_plugin.dir
+/home/blueberry/Desktop/Project/SIH/sim/models/thermal_camera_plugin/build/CMakeFiles/test.dir
+/home/blueberry/Desktop/Project/SIH/sim/models/thermal_camera_plugin/build/CMakeFiles/edit_cache.dir
+/home/blueberry/Desktop/Project/SIH/sim/models/thermal_camera_plugin/build/CMakeFiles/rebuild_cache.dir
+/home/blueberry/Desktop/Project/SIH/sim/models/thermal_camera_plugin/build/CMakeFiles/list_install_components.dir
+/home/blueberry/Desktop/Project/SIH/sim/models/thermal_camera_plugin/build/CMakeFiles/install.dir
+/home/blueberry/Desktop/Project/SIH/sim/models/thermal_camera_plugin/build/CMakeFiles/install/local.dir
+/home/blueberry/Desktop/Project/SIH/sim/models/thermal_camera_plugin/build/CMakeFiles/install/strip.dir
